@@ -1,0 +1,272 @@
+.Etape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+
+    &-title {
+        z-index: 1;
+
+        h2 {
+            margin: 30px 0 0 0;
+            text-transform: uppercase;
+            font-family: Gotham-Medium;
+            font-size: 28px;
+            line-height: 35px;
+            color: #eca647;
+
+            @media only screen and (max-width: 576px) {
+                margin: 30px 40px 0;
+                padding: 0 40px;
+            }
+
+        }
+
+        .p-Des {
+            margin: 30px 95px 0;
+            font-family: Gotham-Book;
+            font-size: 16px;
+            line-height: 1.3;
+
+            @media only screen and (max-width: 576px) {
+                margin: 30px 20px 0;
+            }
+        }
+
+        &-box {
+            margin: 70px 160px 0;
+            border: 5px solid #eca647;
+            position: relative;
+
+            &-title {
+                position: absolute;
+                transform: translateX(-50%);
+                left: 50%;
+                top: -26px;
+                text-transform: uppercase;
+                font-family: Gotham-Bold;
+                font-size: 24px;
+                color: #eca647;
+                background: #fff;
+                padding: 0 5px;
+                padding: 0 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .span-plus {
+                    font-size: 45px;
+                }
+            }
+
+            .p-LeCom {
+                margin: 0;
+                font-family: Gotham-Book;
+                padding: 20px;
+                font-size: 14px;
+                background: #fff;
+                line-height: 1.2;
+            }
+
+            @media only screen and (max-width: 576px) {
+                margin: 75px 20px 0;
+            }
+        }
+
+        .p-footer {
+            margin-top: 100px;
+            font-family: Clarins-Regular;
+            font-size: 28px;
+        }
+    }
+
+    &-products {
+        width: 100%;
+        // display: flex;
+        padding-top: 25px;
+        padding-bottom: 40px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            @media only screen and (max-width: 576px) {
+                img {
+                    width: initial !important;
+                }
+            }
+
+        }
+
+
+        .col-3-padding-top {
+            padding-top: 24px;
+        }
+
+        .h3-red {
+            margin-top: 30px;
+            font-family: Gotham-Medium;
+            font-size: 20px;
+            color: #be0f34;
+            line-height: 1.3;
+        }
+
+        .h3-black {
+            margin-top: 25px;
+            font-family: Gotham-Book;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        .button {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+
+            &-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 175px;
+                height: 50px;
+                font-family: Gotham-Medium;
+                font-size: 11px;
+                color: #fff;
+                background: #000;
+            }
+        }
+    }
+
+    &-flower {
+        position: absolute;
+        top: 95px;
+        left: 50px;
+
+        .name-flower {
+            font-family: Gotham-Book;
+            font-size: 12px;
+            position: absolute;
+            top: 118px;
+            left: -22px;
+
+            @media only screen and (max-width: 576px) {
+                top: initial;
+                bottom: 80px;
+                left: 100px;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            top: 180px;
+            left: -70px;
+        }
+    }
+
+
+
+    &-plan {
+        position: absolute;
+        top: 140px;
+        right: 70px;
+
+        .name-plan {
+            font-family: Gotham-Book;
+            font-size: 12px;
+            position: absolute;
+            top: 150px;
+            right: -22px;
+
+            @media only screen and (max-width: 576px) {
+                top: initial;
+                bottom: 30px;
+                right: 145px;
+                width: 90px;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            top: 222px;
+            right: -30px;
+        }
+    }
+}
+
+.Etape-2 {
+    background: #f3f9ef;
+
+    h2 {
+        color: #96c59b;
+    }
+
+    .Etape-title {
+        .p-footer {
+            @media only screen and (max-width: 576px) {
+                margin-top: 100px;
+            }
+        }
+    }
+
+    .Etape-title-box {
+        border: 5px solid #96c59b;
+    }
+
+    .Etape-title-box-title {
+        background: #f3f9ef;
+        color: #96c59b;
+    }
+
+    .p-LeCom {
+        background: #f3f9ef;
+    }
+
+    .Etape-plan {
+        @media only screen and (max-width : 768px) {
+            top: 170px;
+        }
+
+        @media only screen and (max-width : 576px) {
+            top: 300px;
+            right: 20px;
+
+            img {
+                transform: rotate(45deg);
+            }
+        }
+
+    }
+
+    .name-plan {
+        top: 170px;
+
+        @media only screen and (max-width: 576px) {
+            right: 15px;
+        }
+    }
+}
+
+.Etape-3 {
+    background: #f2f4ff;
+
+    h2 {
+        color: #9b99cd;
+    }
+
+    .Etape-title-box {
+        border: 5px solid #9b99cd;
+    }
+
+    .Etape-title-box-title {
+        background: #f2f4ff;
+        color: #9b99cd;
+    }
+
+    .p-LeCom {
+        background: #f2f4ff;
+    }
+}
+

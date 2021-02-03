@@ -1,0 +1,40 @@
+@import 'Reset';
+@import 'General';
+@import 'Header';
+@import 'Lapurete';
+@import 'Etape';
+@import 'LeDomane';
+@import 'Footer';
+
+
+.wrapper-landing{
+    width: 100%;
+//     background-color: #C0C0C0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+}
+
+*{
+    border: 1px solid red;
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Etape1 from './components/Etape-1';
+import Etape2 from './components/Etape-2';
+import Etape3 from './components/Etape-3';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Lapurete from './components/Lapurete';
+import LeDomane from './components/LeDomane';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper-landing">
+     <div className="container">
+        <Header/>
+        <Lapurete/>
+        <Etape1/>
+        <Etape2/>
+        <LeDomane/>
+        <Etape3/>
+        <Footer/>
+     </div>
     </div>
   );
 }
